@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0125-valid-palindrome](https://github.com/Abhilipsha-Das/leetcode/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/Abhilipsha-Das/leetcode/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/Abhilipsha-Das/leetcode/tree/master/0283-move-zeroes) |
 ## String
 |  |
 | ------- |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Abhilipsha-Das/leetcode/tree/master/0001-two-sum) |
 | [0189-rotate-array](https://github.com/Abhilipsha-Das/leetcode/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/Abhilipsha-Das/leetcode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/Abhilipsha-Das/leetcode/tree/master/0485-max-consecutive-ones) |
 ## Hash Table
 |  |
