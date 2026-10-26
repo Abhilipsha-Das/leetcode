@@ -3,17 +3,20 @@ public:
     int removeDuplicates(vector<int>& nums) {
         if (nums.empty()) return 0;
         
-        set<int> st;
-        for (int i = 0; i < nums.size(); i++) {
-            st.insert(nums[i]);
+        vector<int> temp;
+        temp.push_back(nums[0]);
+        
+        for (int i = 1; i < nums.size(); i++) {
+            if (nums[i] != nums[i - 1]) {
+                temp.push_back(nums[i]);
+            }
         }
         
-        int index = 0;
-        for (int it : st) {
-            nums[index] = it;
-            index++;
+        int k = temp.size();
+        for (int i = 0; i < k; i++) {
+            nums[i] = temp[i];
         }
         
-        return index;
+        return k;
     }
 };
