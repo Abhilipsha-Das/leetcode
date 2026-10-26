@@ -2,16 +2,17 @@ class Solution {
 public:
     int missingNumber(vector<int>& nums) {
         int n = nums.size();
+        vector<int> hash(n + 1, 0);
         
-        // Total expected sum from 0 to n
-        int totalSum = (n * (n + 1)) / 2;
-        
-        int actualSum = 0;
         for (int i = 0; i < n; i++) {
-            actualSum += nums[i];
+            hash[nums[i]] = 1;
         }
         
-        // Difference hi missing number hoga
-        return totalSum - actualSum;
+        for (int i = 0; i <= n; i++) {
+            if (hash[i] == 0) {
+                return i;
+            }
+        }
+        return -1;
     }
 };
